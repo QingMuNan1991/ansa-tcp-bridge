@@ -1,0 +1,18 @@
+[project]
+name = "ansa-tcp-bridge"
+version = "0.1.0"
+description = "Self-hosted MCP server for BETA CAE Systems ANSA via IAPConnection (TCP)"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0",
+]
+
+[project.scripts]
+ansa-tcp-bridge = "mcp_server.server:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mcp_server*"]
