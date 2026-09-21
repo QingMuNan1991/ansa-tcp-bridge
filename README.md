@@ -1,3 +1,9 @@
+<img width="430" height="430" alt="微信图片_20260912110609_11_156" src="https://github.com/user-attachments/assets/00f18553-dd01-40e8-8e47-cf72ca992269" />
+
+欢迎关注“解忧CAE”公众号，共同交流ANSA/META仿真技巧
+
+
+
 # ansa-tcp-bridge（中文使用说明）
 
 一个**自托管的 MCP 服务器**，把 AI 客户端（WorkBuddy / Claude / Copilot / Cursor …）连到
